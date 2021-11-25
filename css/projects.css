@@ -15,7 +15,7 @@ article{
     border-radius: 15px;
 }
 
-/*De Scrum pagina*/
+/*Detailpaginas*/
 .paside{
     justify-content: center;
     grid-area: gpaside;
@@ -30,6 +30,4 @@ article{
     grid-template-areas: 'gheader gheader'
     'gpaside gmain' 'gfooter gfooter';
 }
-
-/*De TM pagina*/
 

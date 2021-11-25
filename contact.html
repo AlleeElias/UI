@@ -20,7 +20,23 @@
             </ul>
         </nav>
     </header>
-        <main></main>
+        <main>
+            <section>
+                <form action="post-demo.php" method="post">
+                    <fieldset>
+                        <legend>Uw persoonlijke gegevens:</legend>
+                        <label for="naam">Naam:</label><input name="naam" type="text" id="naam"><br>
+                        <label for="achternaam">Achternaam:</label><input name="achternaam" type="text" id="achternaam"><br>
+                        <label for="mail">Mail:</label><input name="mail" type="text" id="mail"><br>
+                        <label for="boodschap">Uw boodschap:</label><br>
+                        <input name="boodschap" id="boodschap" type="text"><br>
+                    </fieldset>
+                    <fieldset>
+                        <label for="submit"></label><input type="submit" id="submit"><br>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
         <footer class="footer">Elias Neel 2021</footer>
     </body>
 </html>
