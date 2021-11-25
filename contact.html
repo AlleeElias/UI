@@ -3,6 +3,7 @@
     <head>
         <title>Portfolio</title>
         <link rel="stylesheet" href="css/library.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
     <body>
     <header>
@@ -22,18 +23,28 @@
     </header>
         <main>
             <section>
+                <h2>Contact</h2>
                 <form action="post-demo.php" method="post">
                     <fieldset>
                         <legend>Uw persoonlijke gegevens:</legend>
-                        <label for="naam">Naam:</label><input name="naam" type="text" id="naam"><br>
-                        <label for="achternaam">Achternaam:</label><input name="achternaam" type="text" id="achternaam"><br>
-                        <label for="mail">Mail:</label><input name="mail" type="text" id="mail"><br>
-                        <label for="boodschap">Uw boodschap:</label><br>
-                        <input name="boodschap" id="boodschap" type="text"><br>
+                        <label for="naam">Naam:</label>
+                        <input name="Voornaam" type="text" id="naam"><br>
+                        <label for="achternaam">Achternaam:</label><input name="Familienaam" type="text" id="achternaam"><br>
+                        <label for="mail">Mail:</label><input name="E-mail" type="text" id="mail"><br>
                     </fieldset>
                     <fieldset>
-                        <label for="submit"></label><input type="submit" id="submit"><br>
+                        <legend>Ga uw gang:</legend>
+                        <legend for="vtype">Soort vraag:</legend>
+                        <select name="Type-vraag" id="vtype">
+                            <option value="algemeen">Algemene vraag</option>
+                            <option value="projecten">Project gerelateerd</option>
+                        </select>
+                        <label for="boodschap">Uw boodschap:</label><br>
+                        <input name="Vraag" id="boodschap" type="text"><br>
                     </fieldset>
+                    <label for="newsletter">Nieuwsbrief?</label>
+                    <input type="checkbox" name="Nieuwsbrief" id="newsletter"><br>
+                    <input type="submit" value="Verstuur">
                 </form>
             </section>
         </main>

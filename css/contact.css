@@ -1,0 +1,9 @@
+section{
+    border:solid 5px darkred;
+    margin:25px;
+    padding:15px;
+    border-radius: 15px;
+}
+body{
+    background: darkgray;
+}
