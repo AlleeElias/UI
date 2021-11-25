@@ -9,6 +9,7 @@
   <h1>Je post data</h1>
   <p>Normaal sla je die op in een databank of verstuur je ze in een e-mail, maar als demo ben ik gewoon een echo.</p>
   <pre>
+
 <?php
 echo
 'Voornaam: ' . htmlspecialchars($_POST["Voornaam"]) . "\n" .
