@@ -1,0 +1,18 @@
+.index{
+    background-color: darkgray;
+    display: grid;
+    grid-template-areas: 'gheader' 
+    'gmain' 'gfooter';
+}
+.homeart{
+    display: grid;
+    grid-template-areas: 'ginfo gart1 gart2';
+    justify-content: center;
+}
+section{
+    border:solid 5px darkred;
+    margin:25px;
+    padding:15px;
+    border-radius: 15px;
+}
+.info{grid-area:ginfo;}.art1{grid-area:gart1;}.art2{grid-area:gart2;}

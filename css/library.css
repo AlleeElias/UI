@@ -1,0 +1,45 @@
+/*Klasse met algeme inhoud voor elke pagina*/
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    left: -1000000px;
+}
+.navbar li {
+    display: inline-block;
+}
+li a{
+    color: white;
+}
+
+li a:hover {
+    background: darkgray;
+}
+.logo{
+    min-width: 32px;
+    max-width: 64px;
+    min-height: 32px;
+    max-height: 64px;
+}
+header{
+    grid-area: gheader;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    /*margin: 5px;*/
+}
+footer{
+    grid-area:gfooter;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+main{
+    grid-area:gmain;
+    background-color: darkgray;
+    justify-content: center;
+}

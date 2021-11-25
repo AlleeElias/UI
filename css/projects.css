@@ -1,0 +1,35 @@
+.index{
+    background-color: darkgray;
+    display: grid;
+    grid-template-areas: 'gheader'
+    'gmain' 'gfooter';
+}
+.aboutme{
+    display: inline-grid;
+    justify-content: center;
+}
+article{
+    border:solid 5px darkred;
+    margin:25px;
+    padding:15px;
+    border-radius: 15px;
+}
+
+/*De Scrum pagina*/
+.paside{
+    justify-content: center;
+    grid-area: gpaside;
+}
+.scrum{
+    min-width: 128px;
+    max-width: 1024px;
+}
+.detailindex{
+    background-color: darkgray;
+    display: grid;
+    grid-template-areas: 'gheader gheader'
+    'gpaside gmain' 'gfooter gfooter';
+}
+
+/*De TM pagina*/
+
