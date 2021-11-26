@@ -16,3 +16,10 @@ section{
     border-radius: 15px;
 }
 .info{grid-area:ginfo;}.art1{grid-area:gart1;}.art2{grid-area:gart2;}
+
+/*Media queries*/
+@media screen and (max-width: 1000px){
+    .homeart{
+        grid-template-areas: 'ginfo' 'gart1' 'gart2';
+    }
+}

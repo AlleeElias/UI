@@ -21,13 +21,17 @@ article{
     grid-area: gpaside;
 }
 .scrum{
-    min-width: 128px;
-    max-width: 1024px;
+    max-width: 90%;
 }
 .detailindex{
     background-color: darkgray;
     display: grid;
     grid-template-areas: 'gheader gheader'
     'gpaside gmain' 'gfooter gfooter';
+}
+@media screen and (max-width: 1000px){
+    .detailindex{
+        grid-template-areas: 'gheader' 'gmain' 'gpaside' 'gfooter';
+    }
 }
 
