@@ -1,0 +1,26 @@
+.aside{
+    background: black;
+    color: white;
+    grid-area: gaside;
+    border-width: 5px;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 25px;
+}
+.about{
+    grid-template-columns: 25% 75%;
+    background-color: darkgray;
+    display: grid;
+    grid-template-areas: 'gheader gheader'
+    'gaside gmain' 'gfooter gfooter';
+}
+main{
+    grid-area: gmain;
+    display: inline-block;
+}
+@media screen and (max-width: 1000px){
+    .about{
+        grid-template-columns: 100%;
+        grid-template-areas: 'gheader' 'gmain' 'gaside' 'gfooter';
+    }
+}
